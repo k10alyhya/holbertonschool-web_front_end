@@ -15,4 +15,3 @@ Front-end web development projects completed at **Holberton School** (Tuwaiq Aca
 ## Author
 
 **Khaled Al-Yahya** - [GitHub](https://github.com/k10alyhya)
-EOF
