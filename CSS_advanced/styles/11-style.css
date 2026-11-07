@@ -1,4 +1,4 @@
-/*Center section headers with a custom property*/
+/* Task 11: Section tagline font, uppercase transform and bold weight */
 :root{
   --color-primary:#d73953 ;
   --color-black:#090909 ;
@@ -19,7 +19,7 @@
   --line-height-base: 1.5;
   --line-height-big:1.8;
   --section-header-align: center;
-
+  --section-tagline-transform: uppercase;
 }
 
 html {
@@ -56,6 +56,10 @@ h1,h2,h3,h4,h5,h6{
   text-align: var(--section-header-align);
 }
 
+
 .section-tagline{
   color: var(--color-primary);
+  text-transform: var(--section-tagline-transform);
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
 }
