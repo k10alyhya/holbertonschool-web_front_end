@@ -1,4 +1,4 @@
-/*Center section headers with a custom property*/
+/* Task 9: Remove default link decoration */
 :root{
   --color-primary:#d73953 ;
   --color-black:#090909 ;
@@ -18,7 +18,6 @@
   --line-height-small : 1.2;
   --line-height-base: 1.5;
   --line-height-big:1.8;
-  --section-header-align: center;
 
 }
 
@@ -52,9 +51,6 @@ h1,h2,h3,h4,h5,h6{
   color: var(--color-primary);
 }
 
-.section-header{
-  text-align: var(--section-header-align);
-}
 
 .section-tagline{
   color: var(--color-primary);
